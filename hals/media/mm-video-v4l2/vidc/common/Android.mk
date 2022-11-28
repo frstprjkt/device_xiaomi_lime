@@ -25,9 +25,9 @@ endif
 # ---------------------------------------------------------------------------------
 
 libmm-vidc-inc      := $(LOCAL_PATH)/inc
-libmm-vidc-inc      += $(TOP)/device/xiaomi/lime/hals/media/mm-core/inc
-libmm-vidc-inc      += $(TOP)/device/xiaomi/lime/hals/media/mm-video-v4l2/vidc/vdec/inc
-libmm-vidc-inc      += $(TOP)/device/xiaomi/lime/hals/media/libc2dcolorconvert
+libmm-vidc-inc      += device/xiaomi/lime/hals/media/mm-core/inc
+libmm-vidc-inc      += device/xiaomi/lime/hals/media/mm-video-v4l2/vidc/vdec/inc
+libmm-vidc-inc      += device/xiaomi/lime/hals/media/libc2dcolorconvert
 libmm-vidc-inc      += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 libmm-vidc-inc      += $(TOP)/hardware/libhardware/include
 libmm-vidc-inc      += $(TOP)/frameworks/native/headers/media_plugin
