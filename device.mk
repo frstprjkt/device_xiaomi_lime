@@ -22,14 +22,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-# Overlay
-PRODUCT_PACKAGES += \
-    LimeFrameworks
-
-# Properties
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,build.*.prop,$(LOCAL_PATH)/,$(TARGET_COPY_OUT_VENDOR))
-
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 

@@ -15,6 +15,10 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lime
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lime
+
 # Kernel
 BOARD_PREBUILT_DTBOIMAGE := $(COMMON_PATH)-kernel/lime/dtbo.img
 TARGET_PREBUILT_DTB := $(COMMON_PATH)-kernel/lime/dtb.img
@@ -26,7 +30,6 @@ ODM_MANIFEST_LEMON_FILES := $(DEVICE_PATH)/manifest_lemon.xml
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private

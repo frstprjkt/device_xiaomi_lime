@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_lime.mk
+    $(LOCAL_DIR)/lineage_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_lime-user \
-    statix_lime-userdebug \
-    statix_lime-eng
+    lineage_lime-user \
+    lineage_lime-userdebug \
+    lineage_lime-eng
