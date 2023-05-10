@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lime.mk
+    $(LOCAL_DIR)/nad_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lime-user \
-    aosp_lime-userdebug \
-    aosp_lime-eng
+    nad_lime-user \
+    nad_lime-userdebug \
+    nad_lime-eng
